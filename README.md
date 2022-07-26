@@ -3,6 +3,9 @@ A cool option/setting system in java for modules (aimed at minecraft clients)
 
 Saves all options into configuration files ending with .cllst
 
+Add "OptionConfig.loadOptionConfig();" and Runtime.getRuntime().addShutdownHook(new OptionConfig()); to the initialize event
+
+
 Looks like following:
 
 ![bild](https://user-images.githubusercontent.com/74259011/181017515-8fb163b1-abd9-4495-97c4-0ff5a240e906.png)
